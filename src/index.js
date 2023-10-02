@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function getButtonText() {
-    return [5, 12];
+    return {text: 'submit'};
 }
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
             <label for="email" className="label">enter e-mail</label>
             <input type="text" id="email"/>
             <button style={{ backgroundColor: 'red', color: 'white' }}>
-                { getButtonText() }
+                { getButtonText().text }
             </button>
         </div>
     )
