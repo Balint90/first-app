@@ -9,7 +9,7 @@ const App = () => {
 
     return (
         <div>
-            <label for="email" className="label">enter e-mail</label>
+            <label htmlFor="email" className="label">enter e-mail</label>
             <input type="text" id="email"/>
             <button style={{ backgroundColor: 'red', color: 'white' }}>
                 { getButtonText().text }
