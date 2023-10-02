@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function getButtonText() {
-    return 'Click Me';
+    return ['hello', 'world'];
 }
 
 const App = () => {
