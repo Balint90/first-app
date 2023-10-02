@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function getButtonText() {
-    return ['hello', 'world'];
+    return [5, 12];
 }
 
 const App = () => {
